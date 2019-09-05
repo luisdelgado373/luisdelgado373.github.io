@@ -1,0 +1,35 @@
+:root {
+    --customBlue: rgb(43,124,246);}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: rgb(34,34,34);}
+
+header>p{
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;}
+
+header>h1{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;}
+
+#navTitle {
+    color: white;
+    margin-right: 1.5em;}
+
+.profile-image {
+    width: 450px;
+    height: 325px;
+    margin-right: 3em;
+    border: 3px solid var(--customBlue);
+}
+.media {
+    margin: 3em 5em;
+}
+.media-body {
+    margin-left: 5em;
+}
